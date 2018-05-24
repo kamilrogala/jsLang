@@ -117,6 +117,7 @@ You can translate not just text content but also these attributes:
  - title
  - alt
  - src
+ 
 In **.html* file:
 ```
 <a href="#" data-jslang-txt="1" data-jslang-href="1" data-jslang-href="1">Some text</a>
