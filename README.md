@@ -174,7 +174,7 @@ How to specify default language? In your HTML tag like this:
 ```
 <html lang="en">
 ```
-But remember that some of your guests can have browsers without JavaScript- like Google Bot. So... the best way is to mak this like this:
+But remember that some of your guests can have browsers without JavaScript- like Google Bot. So... the best way is to make this like this:
 ```
 <p data-jslang-txt="1">Fallback text when browser not support JavaScript for paragraph</p>
 ```
@@ -190,7 +190,7 @@ Broken data for element: data-jslang-txt, ID 15
 in file: assets/jsLang-EN.json
  ```
  
-## End words and 
+## End words and todo
 I'm waiting for pull requests and your questions!
 
 **TODO**
