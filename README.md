@@ -180,8 +180,8 @@ But remember that some of your guests can have browsers without JavaScript- like
 ## Errors
 Something wrong? Check your console! It's quite possible that you will find answer there.
 Main causes of errors are:
-- broken JS configuration ([check here](https://github.com/kamilrogala/jsLang#usage))
-- not existing or bad JSON file ([check here](https://github.com/kamilrogala/jsLang#4-creating-json-file))
+- broken JS configuration ([check here](https://github.com/kamilrogala/jsLang#configuration))
+- not existing or bad JSON file ([check here](https://github.com/kamilrogala/jsLang#creating-json-file))
 
 If only some part of your website is translated I'm quite sure that you have an error in your JSON file. Check your console- there should be lert like:
 ```
