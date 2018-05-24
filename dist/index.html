@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jsLang example file</title>
+  <style>
+    .jsLang.lang-container {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: #fff;
+      padding: 10px
+    }
+
+    .jsLang-EN {
+      background: #8686ff
+    }
+
+    .jsLang-PL {
+      background: #fc8c8c
+    }
+  </style>
+</head>
+
+<body>
+  <h2 data-jslang-txt="1">Normal heading text without chosen language</h2>
+  <p data-jslang-txt="2">Normal text for first paragraph (without chosen language)</p>
+  <p data-jslang-txt="3">Normal text for second paragraph (without chosen language)</p>
+  <ul>
+    <li><a href="#" title="some title" data-jslang-txt="4" data-jslang-href="1" data-jslang-title="1">Some text</a></li>
+    <li><a href="#" title="some title" data-jslang-txt="5" data-jslang-href="2" data-jslang-title="2">Some text</a></li>
+    <li><a href="#" title="some title" data-jslang-txt="6" data-jslang-href="3" data-jslang-title="3">Some text</a></li>
+  </ul>
+  <p><img src="http://placehold.it/100x100/0000ff" alt="blue image" data-jslang-src="1" data-jslang-alt="1"></p>
+  <p><img src="http://placehold.it/100x100/0000ff" alt="blue image" data-jslang-src="2" data-jslang-alt="2"></p>
+  <p><img src="http://placehold.it/100x100/0000ff" alt="blue image" data-jslang-src="3" data-jslang-alt="3"></p>
+
+  <div>
+    <h3>Without translations:</h3>
+    <h2>Normal heading text without chosen language</h2>
+    <p>Normal text for first paragraph (without chosen language)</p>
+    <p>Normal text for second paragraph (without chosen language)</p>
+    <ul>
+      <li><a href="#" title="some title">Some text</a></li>
+      <li><a href="#" title="some title">Some text</a></li>
+      <li><a href="#" title="some title">Some text</a></li>
+    </ul>
+    <p><img src="http://placehold.it/100x100/0000ff" alt="blue image"></p>
+    <p><img src="http://placehold.it/100x100/0000ff" alt="blue image"></p>
+    <p><img src="http://placehold.it/100x100/0000ff" alt="blue image"></p>
+  </div>
+  <script src="js/jsLang.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      jsLang({
+        languages: ['pl', 'en'],
+        storage: 'local'
+      }, true);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "navTitle": "Tytuł strony po polsku",
+  "text": {
+    "1": {
+      "content": "Polskie lorem ipsum w treści 1"
+    },
+    "2": {
+      "content": "Polskie lorem ipsum w treści 2"
+    },
+    "3": {
+      "content": "Polskie lorem ipsum w treści 3"
+    },
+    "4": {
+      "content": "Mój blog"
+    },
+    "5": {
+      "content": "Mój GitHub"
+    },
+    "6": {
+      "content": "Mój LinkedIN"
+    }
+    
+  },
+  "href": {
+    "1": {
+      "content": "https://www.kamilrogala.it"
+    },
+    "2": {
+      "content": "https://github.com/kamilrogala/"
+    },
+    "3": {
+      "content": "https://www.linkedin.com/in/kamil-rogala-17a819109/"
+    }
+  },
+  "title": {
+    "1": {
+      "content": "Mój blog"
+    },
+    "2": {
+      "content": "Mój GitHub"
+    },
+    "3": {
+      "content": "Mój LinkedIN"
+    }
+  },
+  "alt": {
+    "1": {
+      "content": "różowy obrazek"
+    },
+    "2": {
+      "content": "czarny obrazek"
+    },
+    "3": {
+      "content": "żółty obrazek"
+    }
+  },
+  "src": {
+    "1": {
+      "content": "http://placehold.it/100x100/ff00cc"
+    },
+    "2": {
+      "content": "http://placehold.it/100x100/000000"
+    },
+    "3": {
+      "content": "http://placehold.it/100x100/ffff00"
+    }
+  }
+}

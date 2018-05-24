@@ -1,0 +1,28 @@
+{
+  "name": "jslang",
+  "version": "1.0.0",
+  "description": "Fast and simple translating website plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src/js -d dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilrogala/jsLang.git"
+  },
+  "keywords": [
+    "translations",
+    "javascript"
+  ],
+  "author": "Kamil Rogala <info@kamilrogala.it> (https://kamilrogala.it)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "bugs": {
+    "url": "https://github.com/kamilrogala/jsLang/issues"
+  },
+  "homepage": "https://github.com/kamilrogala/jsLang#readme"
+}
