@@ -1,6 +1,7 @@
 # project: jsLang!
 
 Fast and simple translating website plugin- just type language, make JSON file and go!
+Check [DEMO](https://kamilrogala.github.io/jsLang/) 
 
 ## Instalation
 ### Download

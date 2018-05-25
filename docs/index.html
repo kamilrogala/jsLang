@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>jsLang example file</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="flex-container justify-space-between">
+        <h1>jsLang</h1>
+        <nav>
+          <ul class="flex-container justify-flex-end">
+            <li><a href="https://github.com/kamilrogala/jsLang" target="_blank" title="Check on GitHub" data-jslang-title="2">GitHub</a></li>
+            <li><a href="https://github.com/kamilrogala/jsLang#instalation" target="_blank" title="Installation" data-jslang-title="3" data-jslang-txt="4">Installation</a></li>
+            <li><a href="https://kamilrogala.it/" target="_blank" title="Author's website" data-jslang-title="4" data-jslang-txt="5">Author</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="wrapper">
+      <h3 data-jslang-txt="6">What is jsLang?</h3>
+      <p data-jslang-txt="7">jsLang is fast and simple translating website plugin- you just have to type language and make JSON file with your phrases to turn your site into multilingual</p>
+      <p data-jslang-txt="8">I have some ideas about this project so stay tuned!</p>
+    </div>
+  </section>
+  <section class="examples">
+    <div class="wrapper">
+      <h3 data-jslang-txt="9">Some examples</h3>
+      <div class="example">
+        <h4 data-jslang-txt="10">Text</h4>
+        <p data-jslang-txt="1">Normal text for first paragraph (without chosen language)</p>
+        <p data-jslang-txt="2">Normal text for third paragraph (without chosen language) with some <span>inner HTML</span> in it</p>
+      </div>
+      <div class="example">
+        <h4 data-jslang-txt="11">Attributes</h4>
+        <p>
+          <a href="#" title="some title" data-jslang-txt="3" data-jslang-href="1" data-jslang-title="1">Link with some attributes</a>
+        </p>
+        <p class="center flag"><img src="http://placehold.it/800x500/0000ff" alt="blue image" data-jslang-src="1" data-jslang-alt="1"></p>
+      </div>
+    </div>
+  </section>
+  <section class="check">
+    <div class="wrapper">
+      <p class="big center" data-jslang-txt="12">Check JSON files:</p>
+      <p class="center">
+        <a class="btn" href="assets/jsLang-PL.json" target="_blank">jsLang-PL.json</a>
+        <a class="btn" href="assets/jsLang-EN.json" target="_blank">jsLang-EN.json</a>
+      </p>
+    </div>
+  </section>
+  <section class="github">
+    <div class="wrapper">
+      <p class="center"><a href="https://github.com/kamilrogala/jsLang" target="_blank" data-jslang-title="2"><img src="github-logo.png" alt="logo GitHub"> <span data-jslang-text="13">Check on GitHub</span></a></p>
+    </div>
+  </section>
+
+  <script src="js/jsLang.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      jsLang({
+        languages: ['pl', 'en']
+      });
+    });
+
+  </script>
+</body>
+
+</html>

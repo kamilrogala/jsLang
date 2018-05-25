@@ -1,0 +1,73 @@
+{
+  "navTitle": "Plugin jsLang- po prostu to przetłumacz!",
+  "text": {
+    "1": {
+      "content": "Normalny tekst dla pierwszego akapitu po polsku"
+    },
+    "2": {
+      "content": "Normalny tekst dla drugiego akapitu po polsku, z jakimś <span>HTML wewnątrz</span> tego paragrafu"
+    },
+    "3": {
+      "content": "Link z jakimiś atrybutami"
+    },
+    "4": {
+      "content": "Instalacja"
+    },
+    "5": {
+      "content": "Autor"
+    },
+    "6": {
+      "content": "Co to jsLang?"
+    },
+    "7": {
+      "content": "jsLang to szybki i łatwy sposób na tlumaczenie stron WWW. Plugin wymaga minimum pracy- wystarczy skonfigurować języki, stworzyć plik JSON z frazami językowymi i tyle! Twoja strona staje sie w mig wielojęzyczna!"
+    },
+    "8": {
+      "content": "Mam parę pomysłów na projekt, więc bądźcie dobrej myśli!"
+    },
+    "9": {
+      "content": "Jakieś przykłady"
+    },
+    "10": {
+      "content": "Tekst"
+    },
+    "11": {
+      "content": "Atrybuty"
+    },
+    "12": {
+      "content": "Sprawdź pliki JSON:"
+    },
+    "13": {
+      "content": "Sprawdź na GitHub"
+    }
+  },
+  "href": {
+    "1": {
+      "content": "https://kamilrogala.it"
+    }
+  },
+  "title": {
+    "1": {
+      "content": "Mój blog"
+    },
+    "2": {
+      "content": "Sprawdź na GitHub"
+    },
+    "3": {
+      "content": "Instalacja"
+    },
+    "4": {
+      "content": "Strona autora"
+    }
+  },
+  "alt": {
+    "1": {
+      "content": "Flaga Polski"
+    }
+  },
+  "src": {
+    "1": {
+      "content": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/800px-Flag_of_Poland.svg.png"
+    }
+  }
+}

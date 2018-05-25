@@ -1,0 +1,73 @@
+{
+  "navTitle": "jsLang plugin- just translate it!",
+  "text": {
+    "1": {
+      "content": "Normal text for first paragraph in english"
+    },
+    "2": {
+      "content": "Normal text for third paragraph in english, with some <span>inner HTML</span> in it"
+    },
+    "3": {
+      "content": "Link with some attributes"
+    },
+    "4": {
+      "content": "Installation"
+    },
+    "5": {
+      "content": "Author"
+    },
+    "6": {
+      "content": "What is jsLang?"
+    },
+    "7": {
+      "content": "jsLang is fast and simple translating website plugin- you just have to type language and make JSON file with your phrases to turn your site into multilingual"
+    },
+    "8": {
+      "content": "I have some ideas about this project so stay tuned!"
+    },
+    "9": {
+      "content": "Some examples"
+    },
+    "10": {
+      "content": "Text"
+    },
+    "11": {
+      "content": "Attributes"
+    },
+    "12": {
+      "content": "Check JSON files:"
+    },
+    "13": {
+      "content": "Check on GitHub"
+    }
+  },
+  "href": {
+    "1": {
+      "content": "https://github.com/kamilrogala/"
+    }
+  },
+  "title": {
+    "1": {
+      "content": "My GitHub"
+    },
+    "2": {
+      "content": "Check on GitHub"
+    },
+    "3": {
+      "content": "Installation"
+    },
+    "4": {
+      "content": "Author's website"
+    }
+  },
+  "alt": {
+    "1": {
+      "content": "Flag of the United Kingdom"
+    }
+  },
+  "src": {
+    "1": {
+      "content": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
+    }
+  }
+}
